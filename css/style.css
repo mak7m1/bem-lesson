@@ -44,8 +44,10 @@ body{
    flex-wrap: wrap;
 }
   .column{
-    margin: 0px 15px;
-    align-items: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 33.3%;
 } 
 .column__title{
